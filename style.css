@@ -1,0 +1,65 @@
+/* Para agregar los tipo de letra especifico basta con una id o etiqueta especifica ahi se pone */
+
+*{
+    font-family: "Jost", serif;
+}
+header{
+    /* Aqui iria el color de la paleta de colores elegida por mi*/
+    background-color: #7f0651;
+}
+/* Para los iconos del footer */
+.nav-item {
+    color: rgb(116, 16, 48);
+}
+/* Para el boton de perfil/primer apartado */
+#perfil {
+color:#abff;
+}
+.d-flex a:hover{
+    background-color: #b0415b;
+}#app{
+    color:#ce92a2;
+}
+.boton-cv{
+    background-color:#7f0651;
+    /* Faltaria para el contorno */
+    color:#dcccd6;
+
+}
+
+/* Para la sección de habilidades */
+.habilidades{
+    background-color: #ce92a2;
+
+}
+/* Clase btn */
+.btn{
+    background-color: bisque;
+}
+
+.btn a{
+    text-decoration: rgb(81, 0, 64);
+    color:rgb(81, 0, 64);
+}
+.card .card-title{
+    color:gray;
+}
+
+/* Por que es id */
+#contacto{
+    background-color: #b0415b;
+}
+#contacto p{
+    color:antiquewhite;
+}
+#btn-contacto{
+    background-color: #7f0651;
+}
+#btn-contacto:hover{
+    background-color: rosybrown;
+}
+/* Color del footer */
+footer p{
+    color:#7f0651;
+}
+
