@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Linkeado -->
   <!-- CDN BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -13,17 +14,18 @@
   <!-- Para poner el icono en que se vea del lado del nombre en la pagina/Nota: agregarlo a pinterest -->
   <link rel="shortcut icon" href="icons/star-fill.svg" type="image/x-icon">
   <!-- Archvo Css -->
-   <link rel="stylesheet" href="style.css">
-   <!-- Linkeado -->
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap"
+    rel="stylesheet">
   <title>Dayana Analy Pacheco Bañuelos</title>
 </head>
 
@@ -32,15 +34,17 @@
     <div class="px-3 py-2 text-bg-border-bottom">
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none fs-3">
             <!-- Icono -->
-            <i class="bi bi-star-fill p-3"></i>
+            <i class="bi bi-star-fill p-3f fs-3 p-3"></i>
+            Página web personal
           </a>
-      <!-- En esta pate falta linkear con el #Id/varios como habilidades -->
-          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+          <!-- En esta pate falta linkear con el #Id/varios como habilidades -->
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small concepto">
             <li>
-              <a id="#perfil" href="#" class="nav-link text-secondary">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+              <!-- Revisar cuadros de hover -->
+              <a id="#perfil" href="#" class="nav-link text-black">
+                <svg class="bi d-block mx-auto mb-3" width="24" height="24">
                   <use xlink:href="#home"></use>
                 </svg>
                 Acerca de mí
@@ -48,7 +52,7 @@
             </li>
             <li>
               <a href="#habilidades" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <svg class="bi d-block mx-auto mb-3" width="24" height="24">
                   <use xlink:href="#speedometer2"></use>
                 </svg>
                 Habilidades
@@ -56,7 +60,7 @@
             </li>
             <li>
               <a href="#proyectos" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <svg class="bi d-block mx-auto mb-3" width="24" height="24">
                   <use xlink:href="#table"></use>
                 </svg>
                 Proyecto
@@ -64,7 +68,7 @@
             </li>
             <li>
               <a href="#testimonios" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <svg class="bi d-block mx-auto mb-3" width="24" height="24">
                   <use xlink:href="#grid"></use>
                 </svg>
                 Colaboraciones
@@ -72,7 +76,7 @@
             </li>
             <li>
               <a href="#contacto" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <svg class="bi d-block mx-auto mb-3" width="24" height="24">
                   <use xlink:href="#people-circle"></use>
                 </svg>
                 Contacto
@@ -86,29 +90,75 @@
   <main>
     <!--Heroo-->
     <div class="hero">
-      <div class="px-4 py-5 my-5 text-center">
+      <!-- Padding en x=px Padding en y= py -->
+      <div id="perfil" class="px-4 py-5 my-5 text-center">
         <!-- Imagen personal-->
-        <img class="d-block mx-auto mb-4 rounded-circle" src="icons/mia2.jpg" alt="" width="200" height="240">
-        <h1 class="display-5 fw-bold text-body-emphasis">Dayana Analy Pacheco Bañuelos</h1>
-        <h2>
-          <!-- Aqui iría el texto de mi puesto -->
-        </h2>
+        <img class="d-block mx-auto mb-5 rounded-circle" src="icons/yo.jpg" alt="100" width="200" height="250">
+        <h1 class="display-5 fw-bold"> Dayana Analy Pacheco Bañuelos</h1>
+        <!-- texto typewriter-->
+       <h2 id="app"></h2> 
         <div class="col-lg-6 mx-auto">
           <!-- Informacion personal -->
-          <p class="lead mb-4">Soy una persona autodidacta, organizada y responsable, con intenciones constantes de
-            hacer las cosas mejores. Me agradan los retos donde pueda continuar aprendiendo...</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3 boton-cv">Link al Cv</button>
+          <p class="lead mb-4 text-center">Soy una persona autodidacta, organizada y responsable, con intenciones
+            constantes de hacer las cosas mejores. Me agradan los retos donde pueda continuar aprendiendo...</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> 
+            <!-- Para poner eñ link de mi cv -->
+            <button type="button" class="btn-lg px-4 gap-2 boton-cv">Conoce mi trayectoria</button>
           </div>
         </div>
       </div>
     </div>
+
+
     <!-- Habilidades -->
-     <div class="caja-habilidades">
-     <div class="habilidades container px-4 py-5" id="hanging-icons habilidades"> -
-    <h2 class="pb-2 border-bottom">Habilidades</h2>
-    <!-- Verlo de la grabacion del 20 de noviembre -->
-</div>
+    <div id="habilidades" class="caja-habilidades">
+      <div class="habilidades container px-4 py-5" id="hanging-icons habilidades">
+        <h2 class="pb-2 border-bottom">Habilidades</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class="bi bi-laptop fs-3"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Programación </h3>
+              <p>(lenguajes C, python 6 matlab) Paragraph of text beneath the heading to explain the heading. </p>
+              <a href="#" class="btn">
+                Primary button
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class="bi bi-badge-3d-fill fs-3"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Modelado & impresión 3D</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn">
+                Primary button
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <i class="bi bi-globe2 fs-3"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. </p>
+              <a href="#" class="btn">
+                Primary button
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Proyectos -->
     <div id="proyectos" class="proyectos container mt-5">
       <!-- División de sección -->
@@ -248,7 +298,6 @@
     </div>
 
     <!-- Testimonios -->
-    <!-- Verificar bien la estructura de carrusel por que no funciona muy bien/ tarea -->
     <div id="testimonios" class="testimonios container mt-5">
       <!-- mt=margin top/margen de 4 -->
       <h2 class="pb-2 border-bottom">Colaboraciones</h2>
@@ -266,9 +315,12 @@
                 <h5 class="subtitle">Mentora en Tecnolochicas Pro </h5>
 
                 <div class="card-body">
-                  <p class="card-text text-center"> Dayana     Pacheco muestra un rápido progreso  en la adquisición de habilidades
-                    técnicas clave y una gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad
-                    de aprender constantemente son cualidades valiosas en el campo de la programación. No tengo dudas de que Dayana seguirá creciendo y haciendo contribuciones significativas como
+                  <p class="card-text text-center"> Dayana Pacheco muestra un rápido progreso en la adquisición de
+                    habilidades
+                    técnicas clave y una gran disposición para colaborar en proyectos. Su actitud positiva y su
+                    voluntad
+                    de aprender constantemente son cualidades valiosas en el campo de la programación. No tengo dudas
+                    de que Dayana seguirá creciendo y haciendo contribuciones significativas como
                     desarrolladora frontend en el futuro.</p>
                 </div>
               </div>
@@ -284,7 +336,8 @@
                 <img src="icons/Pau.jpg" class="card-img-top rounded-circle" alt="Imagen de testimonio">
                 <div class="card-body">
                   <!-- text-center para centrar el texto -->
-                  <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the
                     card's content.</p>
                   <h1 class="card-title">
                   </h1>
@@ -301,7 +354,8 @@
               <div class="card border-0" style="width: 18rem;">
                 <img src="icons/Kary.jpg" class="card-img-top rounded-circle" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the
                     card's content.</p>
                 </div>
               </div>
@@ -315,7 +369,8 @@
               <div class="card border-0" style="width: 18rem;">
                 <img src="icons/Sofi.jpg" class="card-img-top rounded-circle" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the
                     card's content.</p>
                 </div>
               </div>
@@ -337,8 +392,9 @@
             <!-- Mailto=Escribe el correo y texto -->
             <a href="mailto:dayana.a.pacheco.b@gmail.com">
               <!-- Ejemplo: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_mailto_subject -->
-            <button id="btn-contacto" type="button" class="btn btn-primary btn-lg px-4 gap-3">Mandar correo </button>
-          </a>
+              <button id="btn-contacto" type="button" class="btn btn-primary btn-lg px-4 gap-3">Mandar correo
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -348,8 +404,9 @@
   <!-- Footer -->
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"> <i class="fs-3 bi bi-github"></i><a href="https://github.com/Dayaanaly" class="nav-link px-4 "></a></li>
-<!-- Secondary es gris -->
+      <li class="nav-item"> <i class="fs-3 bi bi-github"></i><a href="https://github.com/Dayaanaly"
+          class="nav-link px-4 "></a></li>
+      <!-- Secondary es gris -->
       <li class="nav-item"><i class="fs-3 bi bi-linkedin"></i><a href="#" class="nav-link px-4 "></a></li>
 
       <li class="nav-item"><i class="fs-3 bi bi-discord"></i><a href="#" class="nav-link px-4 "></a></li>
@@ -357,9 +414,10 @@
       <li class="nav-item"><i class="fs-3 bi bi-twitch"></i><a href="#" class="nav-link px-4 "></a></li>
 
       <!-- Tienes que compartir una liga desde whatsapp-->
-       <!-- https://wa.me/555555555
+      <!-- https://wa.me/555555555
  -->
-      <li class="nav-item"><i class="fs-3 bi bi-whatsapp"></i><a href="https://wa.me/3314353107" class="nav-link px-2 "></a></li>
+      <li class="nav-item"><i class="fs-3 bi bi-whatsapp"></i><a href="https://wa.me/3314353107"
+          class="nav-link px-2 "></a></li>
     </ul>
     <p class="text-center">Creado por Dayana Analy Pacheco Bañuelos en el bootcamp de Tecnolochicas Pro @2024</p>
   </footer>
@@ -367,13 +425,18 @@
 
   <!-- Nota: por cierto, para whats es https://wa.me/<tu numero> -->
 
-  
-
   <!-- El script siempre va al final del body -->
+
+  <!-- Bootstrap -->
   <!-- Script= indicaciones especificas o funciones -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <!-- CDN TypewriterJS -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- Main JS -->
+  <!-- Tiene que ir abajo del typewriter por que si no funciona -->
+  <script scr="main.js"></script>
 </body>
 
 </html>

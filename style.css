@@ -1,5 +1,19 @@
 /* Para agregar los tipo de letra especifico basta con una id o etiqueta especifica ahi se pone */
 
+/* Aqui se definen las variables especificas */
+/* Aun no los aplico */
+:root {
+    /* Esta es otra manera de poner los colores */
+    --color-primario: #092b5a;
+    --color-secundario: #09738a;
+    --color-terciario:#78a890;
+    --backg: #e7d9b4;
+    --color-input:#9ed1b7;
+    --color-input2: #073d57;
+    --text-size: 1.5rem;
+    /* Rem= respeta el tamaño de fuente de body (16 pix)*/
+    --color-text: #0000;
+}
 *{
     font-family: "Jost", serif;
 }
@@ -13,18 +27,26 @@ header{
 }
 /* Para el boton de perfil/primer apartado */
 #perfil {
-color:#abff;
+color:rgb(44, 3, 16);
 }
-.d-flex a:hover{
-    background-color: #b0415b;
-}#app{
-    color:#ce92a2;
+.concepto a:hover{
+    background-color: #b0415b;    
+}
+#app{
+    color:#5e021b;
 }
 .boton-cv{
-    background-color:#7f0651;
+    background-color:#880255;
     /* Faltaria para el contorno */
-    color:#dcccd6;
-
+    color:#dbbdd0;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    border-color: #880255;
+}
+.boton-cv:hover {
+    background-color: #653554;
+    border-color: #45243a;
 }
 
 /* Para la sección de habilidades */
@@ -34,7 +56,7 @@ color:#abff;
 }
 /* Clase btn */
 .btn{
-    background-color: bisque;
+    background-color: rgb(127, 85, 6);
 }
 
 .btn a{
