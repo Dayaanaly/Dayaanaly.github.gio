@@ -67,6 +67,19 @@ color:rgb(44, 3, 16);
     color:gray;
 }
 
+/* testimonios */
+.card-title{
+    text-align: center;
+    margin-top: 18px;
+}
+.card-subtitle{
+    text-align: center;
+}
+.card-body{
+    text-align: justify;
+    font-size: 16px;
+
+}
 /* Por que es id */
 #contacto{
     background-color: #b0415b;
@@ -79,6 +92,7 @@ color:rgb(44, 3, 16);
 }
 #btn-contacto:hover{
     background-color: rosybrown;
+    color: #b0415b;
 }
 /* Color del footer */
 footer p{

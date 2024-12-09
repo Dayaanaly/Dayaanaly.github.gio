@@ -8,10 +8,10 @@ var typewriter = new Typewriter(app, {
 typewriter.typeString('Estudiante de ingeniería biomédica')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Desarrolladora de Fronted Jr.')
+    .typeString('Desarrolladora de Frontend Jr.')
     .pauseFor(2500)
     // Numero de caracteres que se borrarán
-    .deleteChars(11)
+    .deleteChars(12)
     .typeString('<strong>bio-proyectos!</strong>')
     .pauseFor(2500)
     .start();
