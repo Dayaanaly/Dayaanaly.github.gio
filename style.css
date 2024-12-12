@@ -84,11 +84,23 @@ h2, h3 {
 }
 
 .boton-cv:hover {
-    background-color:#0a4a6c; /* Color más claro para hover */
+    background-color:#059e99; /* Color más claro para hover */
     border-color:var( --color-input2);
    
 }
+/* Sección testimonios */
+.card-title{
+    text-align: center;
+    margin-top: 18px;
+}
+.card-subtitle{
+    text-align: center;
+}
+.card-body{
+    text-align: justify;
+    font-size: 16px;
 
+}
 /* Sección de Contáctame */
 #contacto {
     background-color: var(--color-terciario);
@@ -111,6 +123,6 @@ h2, h3 {
 }
 
 .nav-link:hover {
-    color: #ffcc00; /* Color iluminado */
-    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00; /* Efecto de brillo */
+    color: #0bd6cf; /* Color iluminado */
+    text-shadow: 0 0 10px #00ff99, 0 0 20px #09e670; /* Efecto de brillo */
 }
