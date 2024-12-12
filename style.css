@@ -1,101 +1,116 @@
-/* Para agregar los tipo de letra especifico basta con una id o etiqueta especifica ahi se pone */
-
-/* Aqui se definen las variables especificas */
-/* Aun no los aplico */
+/* Definición de variables de colores */
 :root {
-    /* Esta es otra manera de poner los colores */
     --color-primario: #092b5a;
     --color-secundario: #09738a;
-    --color-terciario:#78a890;
+    --color-terciario: #78a890;
     --backg: #e7d9b4;
-    --color-input:#9ed1b7;
+    --color-input: #9ed1b7;
     --color-input2: #073d57;
     --text-size: 1.5rem;
-    /* Rem= respeta el tamaño de fuente de body (16 pix)*/
     --color-text: #0000;
 }
-*{
+
+/* General */
+* {
     font-family: "Jost", serif;
 }
-header{
-    /* Aqui iria el color de la paleta de colores elegida por mi*/
-    background-color: #7f0651;
+
+/* Header */
+header {
+    background-color: #073d57;
 }
-/* Para los iconos del footer */
-.nav-item {
-    color: rgb(116, 16, 48);
+
+/* Iconos del footer */
+.nav-item i {
+    color: var(--color-input2);
 }
-/* Para el boton de perfil/primer apartado */
-#perfil {
-color:rgb(44, 3, 16);
+
+/* Letras debajo de iconos */
+footer p {
+    color: var(--color-input2);
 }
-.concepto a:hover{
-    background-color: #b0415b;    
+
+/* Nombre principal */
+h1 {
+    color: black; /* Cambio a color negro */
 }
-#app{
-    color:#5e021b;
+
+/* Texto cambiante */
+#app {
+    color: var(--color-secundario);
 }
-.boton-cv{
-    background-color:#880255;
-    /* Faltaria para el contorno */
-    color:#dbbdd0;
+
+/* Títulos */
+h2, h3 {
+    color: var(--color-primario);
+}
+
+/* Títulos específicos */
+.habilidades h3 {
+    color: var(--color-primario);
+}
+
+/* Habilidades */
+.habilidades {
+    background-color: var(--color-input);
+}
+
+/* Botones en Proyectos */
+.btn-proyecto {
+    background-color: var(--color-secundario);
+      color:white;
+    border-color: var(--color-secundario);
+}
+
+.btn-proyecto a {
+     color:white;
+    text-decoration: none;
+}
+
+.btn-proyecto:hover {
+    background-color: #065a63; /* Un color más oscuro para hover */
+    border-color: #065a63;
+}
+
+/* Botón de trayectoria */
+.boton-cv {
+    background-color: var( --color-input2);
+    color:white;
     border-radius: 15px;
     padding: 15px;
     margin: 5px;
-    border-color: #880255;
+    border-color: var( --color-input2);
+   
 }
+
 .boton-cv:hover {
-    background-color: #653554;
-    border-color: #45243a;
+    background-color:#0a4a6c; /* Color más claro para hover */
+    border-color:var( --color-input2);
+   
 }
 
-/* Para la sección de habilidades */
-.habilidades{
-    background-color: #ce92a2;
-
-}
-/* Clase btn */
-.btn{
-    background-color: rgb(127, 85, 6);
+/* Sección de Contáctame */
+#contacto {
+    background-color: var(--color-terciario);
 }
 
-.btn a{
-    text-decoration: rgb(81, 0, 64);
-    color:rgb(81, 0, 64);
-}
-.card .card-title{
-    color:gray;
+#btn-contacto {
+    background-color: var(--color-secundario);
+       color:white;
 }
 
-/* testimonios */
-.card-title{
-    text-align: center;
-    margin-top: 18px;
-}
-.card-subtitle{
-    text-align: center;
-}
-.card-body{
-    text-align: justify;
-    font-size: 16px;
-
-}
-/* Por que es id */
-#contacto{
-    background-color: #b0415b;
-}
-#contacto p{
-    color:antiquewhite;
-}
-#btn-contacto{
-    background-color: #7f0651;
-}
-#btn-contacto:hover{
-    background-color: rosybrown;
-    color: #b0415b;
-}
-/* Color del footer */
-footer p{
-    color:#7f0651;
+#btn-contacto:hover {
+    background-color: #065a63;
+      color:white;
 }
 
+/* Navegación */
+.nav-link {
+    color: white;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* Color iluminado */
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00; /* Efecto de brillo */
+}
