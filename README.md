@@ -20,7 +20,7 @@ _________________
 ___________
 ### Vista previa
 <!-- Poner imagenes proyecto cuando este listo -->
-![Proyecto](icons/portafolio.png)
+![Proyecto](icons/Imagen_portafolio.png)
 
 *Espero trabajemos juntos pronto* 😎
 <!-- Para poner links [] -->
